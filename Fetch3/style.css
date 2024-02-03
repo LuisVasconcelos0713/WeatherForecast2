@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  background: #cfcfcf;
+  border-radius: 25px;
+  opacity: 0.93;
+  padding: 20px;
+  width: 95%;
+  max-width: 390px;
+}
+
+.search-container {
+  margin-top: 30px;
+  background-color: #c2c2c20b;
+  border-radius: 25px;
+  border: 1px solid #b7b7b743;
+}
+
+.input-city {
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 18px;
+  background: #3b3b3b00;
+  color: #1f1f1f;
+  width: calc(100% -100px);
+  border: none;
+  outline: none;
+}
+
+.button-search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 54px;
+  background: #3b3b3b00;
+  cursor: pointer;
+  float: right;
+}
+
+.img-search {
+  width: 30px;
+  color: white;
+}
+
+.medium-box {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.medium-box-midbox {
+  background-color: #5868e3;
+  border-radius: 20px;
+  padding: 0px 90px 0px 20px;
+  width: 354px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.midbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: cente;
+}
+
+#img-previsao2 {
+  padding-top: 0px;
+  padding-right: 10px;
+  width: 110px;
+}
+
+#temp2 {
+  color: #efefef;
+  font-size: 54px;
+  font-weight: bold;
+}
+
+#wrt-previsao2 {
+  color: #efefef;
+  padding: 0px 0px 20px 0px;
+}
+
+.city {
+  color: #1f1f1f;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+
+.temp {
+  font-size: 20px;
+  color: #1f1f1f;
+  margin-top: 20px;
+}
+
+.small-box {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  flex-direction: row;
+}
+
+.wrt-previsao {
+  color: #1f1f1f;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.humidity {
+  color: #1f1f1f;
+  padding: 9px;
+}
+
+.wind {
+  color: #1f1f1f;
+  margin-left: 4px;
+}
+
+#wind {
+  padding-right: 4px;
+}
+
+.couple {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  max-height: 54px;
+  max-width: 154px;
+  width: 190px;
+  padding: 30px;
+  background-color: #dadada;
+  border-radius: 10px;
+  box-shadow: #1f1f1f5e 0px 0px 3px 0.9px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 15px 0 15px;
+}
+
+.geral {
+  opacity: 0;
+  height: 0;
+}

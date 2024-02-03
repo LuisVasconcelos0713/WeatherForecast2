@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gustavslow - Previsão do tempo</title>
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="search-container">
+        <input placeholder="Digite o nome da cidade" class="input-city" />
+        <button class="button-search" onclick="ButtonClick()">
+          <img
+            src="/images/find-svgrepo-com.png"
+            alt="Busca"
+            class="img-search"
+          />
+        </button>
+      </div>
+      <div class="geral">
+        <div class="medium-box">
+          <h2 class="city">Tempo em...</h2>
+
+          <div class="medium-box-midbox">
+            <div class="midbox-container">
+              <img
+                alt="icone-do-tempo"
+                src="https://openweathermap.org/img/wn/04n.png"
+                class="img-previsao"
+                id="img-previsao2"
+              />
+              <div>
+                <p class="temp" id="temp2">0</p>
+                <p class="wrt-previsao" id="wrt-previsao2">A conferir</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="add">
+            <div class="couple">
+              <img
+                alt="icone-do-tempo"
+                src="images/temp-high-svgrepo-com.png"
+                class="img-previsao"
+                style="width: 30px"
+              />
+              <p class="tempmax">Temperatura Max:</p>
+            </div>
+            <div class="couple">
+              <img
+                alt="icone-do-tempo"
+                src="images/temp-high-svgrepo-com (1).png"
+                class="img-previsao"
+                style="width: 30px"
+              />
+              <p class="tempmin">Temperatura Min:</p>
+            </div>
+            <div class="couple">
+              <img src="images/gota-de-agua.png" style="width: 30px" />
+              <p class="humidity">Umidade: 00%</p>
+            </div>
+            <div class="couple">
+              <img src="images/vento.png" style="width: 30px" id="wind" />
+              <p class="wind" style="padding: 0px 0px 0px 0px">Vento: 00km/h</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
